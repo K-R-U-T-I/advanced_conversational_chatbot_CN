@@ -2,25 +2,29 @@
 
 **Requirements**
 
-Python 3.8
-Transformers library
-Additional libraries: re, logging
+1. Python 3.8
+2. Libraries: Transformers, re, logging, MySQL, Flask
 
 **Usage**
 
-Clone the repository or download the Python script.
-Ensure that the required libraries are installed.
-Run the script using the following command:
-`python main.py`
+1. Clone the repository or download the Python script.
+2. Ensure that the required libraries are installed.
+3. Run the script using the following command: `python main.py`
 
 **Functionality**
 
 **Prompt Injection Detection:** The chatbot checks for potential prompt injections in user input and logs any detected malicious input.
+
 **Data Validation:** The script validates user-provided data such as names, emails, and phone numbers for their correctness and format.
+
 **Sentiment Analysis:** It performs sentiment analysis on user inputs to determine the sentiment of the messages.
+
 **Language Translation:** The chatbot can translate text from one language to another using the MarianMT model.
+
 **Dynamic Blacklisting:** It prevents harmful prompts by blacklisting specific phrases.
+
 **Named Entity Recognition:** The script extracts names, emails, and phone numbers from user inputs.
+
 
 **Breakdown of the code:**
 
