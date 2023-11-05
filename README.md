@@ -14,17 +14,17 @@
 
 **Functionality**
 
-**Prompt Injection Detection:** The chatbot checks for potential prompt injections in user input and logs any detected malicious input.
+1. **Prompt Injection Detection:** The chatbot checks for potential prompt injections in user input and logs any detected malicious input.
 
-**Data Validation:** The script validates user-provided data such as names, emails, and phone numbers for their correctness and format.
+2. **Data Validation:** The script validates user-provided data such as names, emails, and phone numbers for their correctness and format.
 
-**Sentiment Analysis:** It performs sentiment analysis on user inputs to determine the sentiment of the messages.
+3. **Sentiment Analysis:** It performs sentiment analysis on user inputs to determine the sentiment of the messages.
 
-**Language Translation:** The chatbot can translate text from one language to another using the MarianMT model.
+4. **Language Translation:** The chatbot can translate text from one language to another using the MarianMT model.
 
-**Dynamic Blacklisting:** It prevents harmful prompts by blacklisting specific phrases.
+5. **Dynamic Blacklisting:** It prevents harmful prompts by blacklisting specific phrases.
 
-**Named Entity Recognition:** The script extracts names, emails, and phone numbers from user inputs. 
+6. **Named Entity Recognition:** The script extracts names, emails, and phone numbers from user inputs. 
 
 
 **Breakdown of the code:**
@@ -61,5 +61,15 @@
     It constructs responses based on the user's interaction and shared information.
 
 **Output**
+
+https://github.com/K-R-U-T-I/advanced_conversational_chatbot_CN/assets/38699938/fcd25942-3288-4003-ba0f-276ba808e762
+
+![op5](https://github.com/K-R-U-T-I/advanced_conversational_chatbot_CN/assets/38699938/a9c10ce5-db77-47c1-ba1c-b2b78c4644f5)
+![op4](https://github.com/K-R-U-T-I/advanced_conversational_chatbot_CN/assets/38699938/44eb5e81-59a7-4c20-ba66-e6642b0cbbb3)
+![op3](https://github.com/K-R-U-T-I/advanced_conversational_chatbot_CN/assets/38699938/00019421-74fe-4ce4-ad33-2cd00cbc9c25)
+![op2](https://github.com/K-R-U-T-I/advanced_conversational_chatbot_CN/assets/38699938/4e45284b-36c4-4e18-83d6-744bbd9a88ab)
+![op1](https://github.com/K-R-U-T-I/advanced_conversational_chatbot_CN/assets/38699938/c6d817b4-7e96-4d8f-a011-abb651fa7e51)
+
+
 
 
