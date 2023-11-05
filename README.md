@@ -1,4 +1,4 @@
-# advanced_conversational_chatbot_CN
+# Advanced Conversational Chatbot 
 
 **Requirements**
 
@@ -10,6 +10,7 @@
 1. Clone the repository or download the Python script.
 2. Ensure that the required libraries are installed.
 3. Run the script using the following command: `python main.py`
+4. Flask REST API endpoints available in `app.py`
 
 **Functionality**
 
@@ -23,7 +24,7 @@
 
 **Dynamic Blacklisting:** It prevents harmful prompts by blacklisting specific phrases.
 
-**Named Entity Recognition:** The script extracts names, emails, and phone numbers from user inputs.
+**Named Entity Recognition:** The script extracts names, emails, and phone numbers from user inputs. 
 
 
 **Breakdown of the code:**
@@ -58,3 +59,7 @@
 9. Generate Response Function:
     The generate_response function takes user input and shared information as input and generates a response using the GPT-2 model.
     It constructs responses based on the user's interaction and shared information.
+
+**Output**
+
+
